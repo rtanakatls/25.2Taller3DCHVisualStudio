@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Figures\FigureMenu.cs" />
+    <Compile Include="Figures\Rectangle.cs" />
+    <Compile Include="Figures\Shape.cs" />
+    <Compile Include="Figures\Triangle.cs" />
+    <Compile Include="ExampleMenu.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

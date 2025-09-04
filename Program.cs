@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller3D252Virtual.Figures;
 
 namespace Taller3D252Virtual
 {
@@ -10,7 +11,7 @@ namespace Taller3D252Virtual
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+            Menu menu = new FigureMenu();
             menu.Execute();
         }
     }
