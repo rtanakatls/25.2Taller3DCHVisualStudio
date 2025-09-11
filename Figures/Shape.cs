@@ -12,6 +12,12 @@ namespace Taller3D252Virtual.Figures
 
         public string Name { get { return name; } }
 
+        public Shape(string name)
+        {
+            this.name = name;
+        }
+
+
         public virtual float GetArea()
         {
             return 0;

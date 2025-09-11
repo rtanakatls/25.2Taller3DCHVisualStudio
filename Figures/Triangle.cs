@@ -11,11 +11,10 @@ namespace Taller3D252Virtual.Figures
         protected float b;
         protected float h;
 
-        public Triangle(float b, float h)
+        public Triangle(string name, float b, float h) : base(name)
         {
             this.b = b;
             this.h = h;
-            name = "Triangle";
         }
 
         public override float GetArea()

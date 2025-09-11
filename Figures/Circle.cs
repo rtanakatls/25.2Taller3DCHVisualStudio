@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Taller3D252Virtual.Figures
 {
-    internal class Rectangle : Shape
+    internal class Circle : Shape
     {
-        protected float b;
-        protected float h;
+        protected float radius;
+        protected float pi = 3.1416f;
 
-        public Rectangle(string name, float b, float h) : base(name)
+        public Circle(string name, float radius) : base(name)
         {
-            this.b = b;
-            this.h = h;
+            this.radius = radius;
         }
 
         public override float GetArea()
         {
-            return b * h;
+            return pi * radius * radius;
         }
+
     }
 }

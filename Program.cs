@@ -11,7 +11,7 @@ namespace Taller3D252Virtual
     {
         static void Main(string[] args)
         {
-            Menu menu = new FigureMenu();
+            Menu menu = new FiguresMenu();
             menu.Execute();
         }
     }
